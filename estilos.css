@@ -1,0 +1,204 @@
+@font-face{
+	font-family: ubuntuRegular;
+	src: url(fuentes/Ubuntu-R.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: ubuntuBold;
+	src: url(fuentes/Ubuntu-B.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: ubuntuItalic;
+	src: url(fuentes/Ubuntu-I.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: ubuntuBoldItalic;
+	src: url(fuentes/Ubuntu-BI.ttf) format('truetype');
+}
+html {
+	width: 100%;
+	height: 100%;
+	font-family: Tahoma, 'Trebuchet MS', Arial;
+	font-size: 100%;
+}
+body{
+	background: #BCD6FF url('redfusalibre-bg.png') no-repeat fixed;
+	background-size: contain;
+	text-shadow:0 0 4px #999;
+	font-family: ubuntuRegular, "Trebuchet MS", Verdana, Arial;
+	font-size: 0.8em;
+}
+a{
+	text-decoration: none;
+	color:#0C3C44;
+	opacity: 0.7;
+	transition: all 0.8s;
+}
+a:hover{
+	text-decoration: none;
+	opacity: 1;
+	transition: all 0.8s;
+}
+#contenedor {
+	max-width: 980px;
+	margin: 0 auto;
+}
+header {
+	background: rgba(63,140,255,0.5);
+	border-radius: 1em 1em 3em 3em;
+	width: 85%;
+	display: inline-block;
+}
+section#social {
+	width: 9%;
+	display: inline-block;
+	margin: 0.8em 0 0 -1.1em;
+}
+section#intro {
+	background: rgba(240,240,240,0.8);
+	border-radius: 3em 3em 1em 1em;
+	text-align: center;
+}
+header, section#intro {
+	padding: 0.8em;
+	margin: 0.8em;
+	margin-top: 0px;
+	box-shadow: 0 0 10px #333;
+	position:relative;
+}
+#intro p {
+	display: inline-block;
+	border-radius: 2em;
+	padding: 1em;
+	margin: 2em;
+	transition: all 1s;
+	text-align: center;
+}
+#intro p:before {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	padding: 5px;
+	background: #FFF;
+	border: 1px solid #aaa;
+	border-radius: 30px;
+	box-shadow: inset 0 0 15px #999;
+	font-size: 2em;
+	transform:rotate(15deg);
+}
+header h1,header h2,header h3 {
+	text-shadow:0 0 4px #fff;
+	color:#1A304C;
+}
+header h1 {
+	letter-spacing:-3px;
+}
+h1, h2, h3 {
+	line-height: 0.8;
+	margin: 5px;
+	padding: 5px;
+}
+h1{
+	font-size: 2.2em;
+}
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1.2em;
+}
+header img{
+	margin: 0px 30px;
+	padding: 0px 7px;
+	border-radius: 30px 30px 0 30px;
+	opacity: 0.8;
+	box-shadow: none;
+	transform:scale(1,1);
+	transition: opacity 0.5s, box-shadow 0.5s, transform 0.8s;
+}
+header img:hover{
+	opacity: 1;
+	box-shadow: inset 0 0 50px #fff,0 0 30px #fff;
+	transform:scale(1.20,1.20);
+	transition: opacity 0.5s, box-shadow 0.5s, transform 0.8s;
+}
+p.a {
+	width: 10%;
+	background-color:#FFFC7C; 
+	transform:rotate(-6deg);
+	border: 1px solid #eee;
+}
+p.a:hover {
+	transform:rotate(6deg);
+	transition: all 1s;
+}
+p.a:before {
+	content: '1';
+}
+p.b {
+	width: 20%;
+	background-color:#FFC27C; 
+	transform:rotate(-7deg);
+}
+p.b:hover {
+	transform:rotate(7deg);
+	transition: all 1s;
+}
+p.b:before {
+	content: '2';
+}
+p.c {
+	width: 8%;
+	background-color:#F47CFF; 
+	transform:rotate(2deg);
+}
+p.c:hover {
+	transform:rotate(-6deg);
+	transition: all 1s;
+}
+p.c:before {
+	content: '3';
+}
+p.d {
+	width: 25%;
+	background-color:#A0E1FF; 
+	transform:rotate(-4deg);
+}
+p.d:hover {
+	transform:rotate(4deg);
+	transition: all 1s;
+}
+p.d:before {
+	content: '4';
+}
+p.e {
+	width: 17%;
+	background-color:#77FFCF; 
+	transform:rotate(5deg);
+}
+p.e:hover {
+	transform:rotate(-5deg);
+	transition: all 1s;
+}
+p.e:before {
+	content: '5';
+}
+p.f {
+	width: 13%;
+	background-color:#51FF71; 
+	transform:rotate(6deg);
+}
+p.f:hover {
+	transform:rotate(-6deg);
+	transition: all 1s;
+}
+p.f:before {
+	content: '6';
+}
+footer {
+	font-size: 0.8em;
+	text-align: center;
+	color: #333;
+}
