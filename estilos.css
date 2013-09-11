@@ -51,6 +51,9 @@ header {
 	width: 85%;
 	display: inline-block;
 }
+nav li {
+	display: inline-block;
+}
 section#social {
 	width: 9%;
 	display: inline-block;
