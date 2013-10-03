@@ -1,4 +1,4 @@
-redfusalibre
+redfusalibre-inicio
 ============
 
 Página de inicio del sitio web oficial de Red Fusa Libre.
